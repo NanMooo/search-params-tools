@@ -1,0 +1,16 @@
+{
+  "name": "search-params-tools",
+  "version": "1.0.1",
+  "description": "provides searchParams management tools",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc --declaration"
+  },
+  "keywords": [],
+  "author": "nanmo",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.8.4"
+  }
+}
