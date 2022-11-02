@@ -4,8 +4,5 @@
     "declaration": true,
     "outDir": "dist"
   },
-  "files": ["index.ts"],
-  "ts-node": {
-    "esm": true
-  }
+  "files": ["index.ts"]
 }

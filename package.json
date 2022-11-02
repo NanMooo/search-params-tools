@@ -8,7 +8,7 @@
   "scripts": {
     "dev-tsc": "tsc --watch",
     "dev-nodemon": "nodemon ./dist/index.js",
-    "dev-ts-node": "tsnode index.ts",
+    "dev-ts-node": "ts-node-esm index.ts",
     "build": "tsc --declaration"
   },
   "keywords": [],
