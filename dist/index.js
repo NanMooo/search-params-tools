@@ -21,3 +21,4 @@ export var getSearchParams = function (searchParamsString, key) {
         return paramsObject_1;
     }
 };
+console.log(3);

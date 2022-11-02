@@ -4,7 +4,11 @@
   "description": "provides searchParams management tools",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "type": "module",
   "scripts": {
+    "dev-tsc": "tsc --watch",
+    "dev-nodemon": "nodemon ./dist/index.js",
+    "dev-ts-node": "tsnode index.ts",
     "build": "tsc --declaration"
   },
   "keywords": [],
