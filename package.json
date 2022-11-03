@@ -6,15 +6,16 @@
   "types": "./dist/index.d.ts",
   "type": "module",
   "scripts": {
-    "dev-tsc": "tsc --watch",
-    "dev-nodemon": "nodemon ./dist/index.js",
-    "dev-ts-node": "ts-node-esm index.ts",
-    "build": "tsc --declaration"
+    "build": "rm -rf ./dist && tsc --declaration"
   },
   "keywords": [],
   "author": "nanmo",
   "license": "ISC",
   "dependencies": {
     "typescript": "^4.8.4"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.42.0",
+    "eslint": "^8.26.0"
   }
 }

@@ -8,17 +8,11 @@ export var delSearchParams = function (searchParamsString, keys) {
     keys.map(function (key) { return currentParams["delete"](key); });
     return currentParams.toString();
 };
-export var getSearchParams = function (searchParamsString, key) {
+export var getSearchParams = function (searchParamsString) {
     var currentParams = new URLSearchParams(searchParamsString);
-    if (key) {
-        return currentParams.get(key);
-    }
-    else {
-        var paramsObject_1 = {};
-        currentParams.forEach(function (value, key) {
-            paramsObject_1[key] = value;
-        });
-        return paramsObject_1;
-    }
+    var paramsObject = {};
+    currentParams.forEach(function (value, key) {
+        paramsObject[key] = value;
+    });
+    return paramsObject;
 };
-console.log(3);

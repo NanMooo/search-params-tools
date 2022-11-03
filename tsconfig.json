@@ -1,8 +1,14 @@
 {
   "compilerOptions": {
+    // 模块类型
     "module": "ESNext",
+    // 生成.d.ts声明
     "declaration": true,
-    "outDir": "dist"
-  },
-  "files": ["index.ts"]
+    // 移除注释
+    "removeComments": true,
+    // 根目录
+    "rootDir": "./src",
+    // 输出目录
+    "outDir": "./dist"
+  }
 }
