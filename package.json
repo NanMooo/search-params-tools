@@ -1,6 +1,6 @@
 {
   "name": "search-params-tools",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "provides searchParams management tools",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
