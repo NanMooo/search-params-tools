@@ -1,5 +1,5 @@
 {
-  "name": "search-params-tools",
+  "name": "@nanmo/search-params-tools",
   "version": "1.0.3",
   "description": "provides searchParams management tools",
   "keywords": [
